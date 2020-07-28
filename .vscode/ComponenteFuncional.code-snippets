@@ -1,0 +1,20 @@
+{
+  "Print to console": {
+    "scope": "javascript",
+    "prefix": "compfunc",
+    "body": [
+		"import React from 'react'",
+		"import {Text} from 'react-native'",
+		"import Estilo from './Estilo'",
+		"",
+		"export default (props) =>{",
+		"    return (",
+		"         <Text style={Estilo.fonteGrande}>",
+		"             $1",
+		"         </Text>",
+		"    )",
+		"}",	
+	],
+    "description": "Componente com um Text"
+  }
+}
